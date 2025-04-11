@@ -9,12 +9,12 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-    - uses: action/checkout@v3
+      - uses: action/checkout@v3
 
-    - name: runtest
+      - name: runtest
       run: echo "running on feature branch"
       
-    - name: deploy
+      - name: deploy
       run: echo "deploying on the feature"
 
 
